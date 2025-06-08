@@ -1,4 +1,4 @@
-# Tesla CanDash
+# Tesla CANDash
 
 A maintained continuation of the deleted CanDash Dashboard application by [nmullaney](https://github.com/nmullaney).
 
