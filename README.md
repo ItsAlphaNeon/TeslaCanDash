@@ -19,7 +19,7 @@ Tesla CANdash is an Android app that transforms your Android device into an inst
 - **Door/Aperture Open Alerting**
 - **Automatic Night Mode** based on vehicle status
 - **Manual Night Mode** for dark preference
-- Compatible from **Android 6.0.1 and older**
+- Compatible from **Android 6.0.1+**
 - Fully compatible with Android split screen functionality
 
 ## Setup
