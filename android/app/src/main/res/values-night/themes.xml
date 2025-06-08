@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TeslaDashboard" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+
+        <item name="fontHugeNum">@font/interextralight</item>
+        <item name="fontLargeNum">@font/intermedium</item>
+        <item name="fontRegular">@font/interregular</item>
+        <item name="fontMedium">@font/intermedium</item>
+        <item name="fontSemiBold">@font/intersemibold</item>
+        <item name="fontBold">@font/interbold</item>
+
+        <item name="scaleTextY">0.9</item>
+        <item name="maxSizeHugeNum">300dp</item>
+        <item name="maxSizeLargeNum">220dp</item>
+
+        <item name="letterSpacing">-0.1</item>
+        <item name="letterSpacingBold">-0.08</item>
+
+        <item name="cyberMode">false</item>
+
+
+        <item name="colorPrimary">@color/day_primary</item>
+        <item name="colorSecondary">@color/day_secondary</item>
+        <item name="colorTertiary">@color/day_tertiary</item>
+        <item name="colorGhost">@color/day_ghost</item>
+        <item name="colorBackground">@color/day_background</item>
+        <item name="colorWhite">@color/day_white</item>
+
+        <item name="android:textColor">?attr/colorSecondary</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="spinnerStyle">@style/SpinnerStyle</item>
+        <item name="radioButtonStyle">@style/RadioButtonStyle</item>
+        <item name="checkboxStyle">@style/CheckboxStyle</item>
+
+        <item name="drawableBSL1">@drawable/ic_bsl1_big</item>
+        <item name="drawableBSL2">@drawable/ic_bsl2_big</item>
+        <item name="drawableBSR1">@drawable/ic_bsr1_big</item>
+        <item name="drawableBSR2">@drawable/ic_bsr2_big</item>
+        <item name="drawableBrakeHold">@drawable/ic_brake_hold</item>
+    </style>
+
+    <style name="Theme.TeslaDashboard.Cyber" parent="Theme.TeslaDashboard">
+        <item name="fontHugeNum">@font/orbitronlight</item>
+        <item name="fontLargeNum">@font/orbitronmedium</item>
+        <item name="fontRegular">@font/blenderprobook</item>
+        <item name="fontMedium">@font/blenderpromedium</item>
+        <item name="fontSemiBold">@font/blenderprobold</item>
+        <item name="fontBold">@font/blenderprobold</item>
+
+        <item name="scaleTextY">1.0</item>
+        <item name="maxSizeHugeNum">175dp</item>
+        <item name="maxSizeLargeNum">110dp</item>
+
+        <item name="letterSpacing">0.0</item>
+        <item name="letterSpacingBold">0.0</item>
+
+        <item name="cyberMode">true</item>
+
+        <item name="drawableBSL1">@drawable/ic_bsl1_big_cyber</item>
+        <item name="drawableBSL2">@drawable/ic_bsl2_big_cyber</item>
+        <item name="drawableBSR1">@drawable/ic_bsr1_big_cyber</item>
+        <item name="drawableBSR2">@drawable/ic_bsr2_big_cyber</item>
+        <item name="drawableBrakeHold">@drawable/ic_brake_hold_cyber</item>
+    </style>
+
+
+    <style name="Theme.TeslaDashboard.Dark" parent="Theme.TeslaDashboard">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorSecondary">@color/dark_secondary</item>
+        <item name="colorTertiary">@color/dark_tertiary</item>
+        <item name="colorGhost">@color/dark_ghost</item>
+        <item name="colorBackground">@color/dark_background</item>
+        <item name="colorWhite">@color/dark_white</item>
+    </style>
+
+
+    <style name="Theme.TeslaDashboard.Night" parent="Theme.TeslaDashboard">
+        <item name="colorPrimary">@color/night_primary</item>
+        <item name="colorSecondary">@color/night_secondary</item>
+        <item name="colorTertiary">@color/night_tertiary</item>
+        <item name="colorGhost">@color/night_ghost</item>
+        <item name="colorBackground">@color/night_background</item>
+        <item name="colorWhite">@color/night_white</item>
+    </style>
+
+
+    <style name="Theme.TeslaDashboard.Cyber.Dark" parent="Theme.TeslaDashboard.Cyber">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorSecondary">@color/dark_secondary</item>
+        <item name="colorTertiary">@color/dark_tertiary</item>
+        <item name="colorGhost">@color/dark_ghost</item>
+        <item name="colorBackground">@color/dark_background</item>
+        <item name="colorWhite">@color/dark_white</item>
+    </style>
+
+
+    <style name="Theme.TeslaDashboard.Cyber.Night" parent="Theme.TeslaDashboard.Cyber">
+        <item name="colorPrimary">@color/night_primary</item>
+        <item name="colorSecondary">@color/night_secondary</item>
+        <item name="colorTertiary">@color/night_tertiary</item>
+        <item name="colorGhost">@color/night_ghost</item>
+        <item name="colorBackground">@color/night_background</item>
+        <item name="colorWhite">@color/night_white</item>
+    </style>
+</resources>
