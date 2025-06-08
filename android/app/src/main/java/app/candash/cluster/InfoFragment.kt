@@ -86,10 +86,7 @@ class InfoFragment : Fragment() {
         binding.startDashButton.setOnClickListener {
             switchToDash()
         }
-
-        binding.emailLogs.setOnClickListener {
-            sendEmailLogs()
-        }
+        
 
         binding.scrollView.setOnLongClickListener {
             switchToDash()
